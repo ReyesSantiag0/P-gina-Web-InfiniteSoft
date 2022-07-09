@@ -14,7 +14,6 @@ h5 {
 
 .grid_cards {
   width: 80%;
-  height: 100vh;
   margin: auto;
   padding: 1em;
 }
@@ -23,6 +22,29 @@ h5 {
   text-align: center;
   width: 40%;
   height: 100vh;
+  margin: auto;
+  padding: 1em;
+}
+
+.metodologia {
+  text-align: center;
+}
+
+.card_metodologia {
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+}
+
+.final_pag {
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+}
+
+.redes {
+  text-align: right;
+  width: 90%;
   margin: auto;
   padding: 1em;
 }
