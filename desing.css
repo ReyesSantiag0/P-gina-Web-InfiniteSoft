@@ -16,6 +16,7 @@ h5 {
   width: 80%;
   margin: auto;
   padding: 1em;
+  text-align: center;
 }
 
 .text-font {
@@ -104,4 +105,28 @@ h5 {
   color: white;
   text-align: center;
   width: 50%;
+}
+.img_somos {
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(img/img_quienes_somos.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.txt_somos {
+  color: white;
+  text-align: center;
+  width: 50%;
+}
+
+.grid_cards_somos {
+  width: 70%;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
 }
