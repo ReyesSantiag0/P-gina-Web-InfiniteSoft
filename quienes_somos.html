@@ -1,33 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>InfiniteSoft pagina rodolfo </title>
+  <title>InfiniteSoft</title>
+
+  <link rel="stylesheet" href="desing.css">
+  <link rel="icon" type="image/x-icon" href="img/forma03.png">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="clearfix">
-        <img src="..." class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
-      
-        <p>
-          A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-        </p>
-      
-        <p>
-          As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-        </p>
-      
-        <p>
-          And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-        </p>
+
+  <!--BARRA DE NAVEGACIÓN-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">
+        <img src="img/forma02.png" alt="" width="30" height="24" class="d-inline-block align-text-top">InfiniteSoft</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quienes_somos.html">QUIENES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">SERVICIOS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              PORTAFOLIO
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Proyecto 01</a></li>
+              <li><a class="dropdown-item" href="#">Proyecto 02</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Proyectos Futuros</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">CONTÁCTANOS</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+        </form>
       </div>
+    </div>
+  </nav>
 
-
-  
+  <!--VIDEO HOME-->
+  <div class="home">
+    <video id="video" src="video/video_presentacion.mp4" type="video/mp4" autoplay loop muted></video>
+  </div>
 
 </body>
-
-</html>
