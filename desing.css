@@ -41,13 +41,8 @@ h5 {
   width: 90%;
   margin: auto;
   padding: 1em;
-}
-
-.redes {
-  text-align: right;
-  width: 90%;
-  margin: auto;
-  padding: 1em;
+  text-align: center;
+  color: white;
 }
 
 .center_forms {
@@ -71,6 +66,7 @@ h5 {
 .contacto_redes {
   text-align: center;
 }
+
 .img_servicios {
   width: 99vw;
   height: 100vh;
@@ -147,4 +143,8 @@ h5 {
   color: white;
   text-align: center;
   width: 50%;
+}
+
+.pie {
+  background-color: #0f256e;
 }
