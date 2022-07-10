@@ -71,7 +71,7 @@ h5 {
   text-align: center;
 }
 .img_servicios {
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -83,6 +83,24 @@ h5 {
 }
 
 .txt_servicios {
+  color: white;
+  text-align: center;
+  width: 50%;
+}
+
+.img_subete {
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(img/img_abordo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.txt_subete {
   color: white;
   text-align: center;
   width: 50%;
